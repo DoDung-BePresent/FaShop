@@ -1,6 +1,5 @@
-import ButtonComponent from "../share/ButtonComponent";
+import { Button, Input } from "antd";
 import ContainerComponent from "../share/ContainerComponent";
-import InputComponent from "../share/InputComponent";
 import TextComponent from "../share/TextComponent";
 import TitleComponent from "../share/TitleComponent";
 import { globalColors } from "../styles/globalColors";
@@ -38,8 +37,10 @@ const Newsletter = () => {
             gap: 7,
           }}
         >
-          <InputComponent text="Email" />
-          <ButtonComponent padding="8px 15px" text="Sign Up" />
+          <Input placeholder="Email" />
+          <Button type="primary" style={{ width: "fit-content" }}>
+            Sign Up
+          </Button>
         </div>
       </div>
     </ContainerComponent>

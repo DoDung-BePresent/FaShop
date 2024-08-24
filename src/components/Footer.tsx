@@ -3,7 +3,7 @@ import TextComponent from "../share/TextComponent";
 import TitleComponent from "../share/TitleComponent";
 import { globalColors } from "../styles/globalColors";
 import ContainerComponent from "../share/ContainerComponent";
-import DividerComponent from "../share/DividerComponent";
+import { Divider } from "antd";
 
 const Footer = () => {
   return (
@@ -53,7 +53,11 @@ const Footer = () => {
             }}
             text="Shop"
           />
-          <DividerComponent />
+          <Divider
+            style={{
+              margin: "5px 0",
+            }}
+          />
           <ul
             style={{
               display: "flex",
@@ -82,7 +86,11 @@ const Footer = () => {
             }}
             text="Gift Cards"
           />
-          <DividerComponent />
+          <Divider
+            style={{
+              margin: "5px 0",
+            }}
+          />
           <ul
             style={{
               display: "flex",
@@ -122,7 +130,11 @@ const Footer = () => {
             }}
             text="About Store"
           />
-          <DividerComponent />
+          <Divider
+            style={{
+              margin: "5px 0",
+            }}
+          />
           <ul
             style={{
               display: "flex",
@@ -150,7 +162,11 @@ const Footer = () => {
             }}
             text="Legal"
           />
-          <DividerComponent />
+          <Divider
+            style={{
+              margin: "5px 0",
+            }}
+          />
           <ul
             style={{
               display: "flex",

@@ -4,7 +4,6 @@ import { globalColors } from "../styles/globalColors";
 
 import Image from "../assets/720x443.svg";
 import TitleComponent from "../share/TitleComponent";
-import ButtonComponent from "../share/ButtonComponent";
 import { Button } from "antd";
 
 const Banner = () => {

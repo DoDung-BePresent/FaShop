@@ -1,5 +1,5 @@
+import { Button } from "antd";
 import Image from "../assets/1280x610.svg";
-import ButtonComponent from "../share/ButtonComponent";
 import ContainerComponent from "../share/ContainerComponent";
 import TextComponent from "../share/TextComponent";
 import TitleComponent from "../share/TitleComponent";
@@ -56,7 +56,9 @@ const PromoSection = () => {
             color={globalColors.white}
             text="Our latest cosmetic arrivals have just landed, and they're sure to dazzle you. Check out the freshest makeup, skincare, beauty products and elevate your beauty routine."
           />
-          <ButtonComponent text="Shop Now" />
+          <Button type="primary" style={{ width: "fit-content" }}>
+            Shop Now
+          </Button>
         </div>
       </ContainerComponent>
     </div>

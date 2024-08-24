@@ -2,7 +2,7 @@ import "./index.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainLayout from "./components/MainLayout.tsx";
+import MainLayout from "./Layout/MainLayout.tsx";
 import StoreFront from "./pages/StoreFront.tsx";
 import Product from "./pages/Product.tsx";
 import NotFound from "./pages/NotFound.tsx";

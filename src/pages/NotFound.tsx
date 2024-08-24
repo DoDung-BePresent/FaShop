@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import Image from "../assets/404-page.svg";
-import ButtonComponent from "../share/ButtonComponent";
 import TextComponent from "../share/TextComponent";
-import TitleComponent from "../share/TitleComponent";
 import { globalColors } from "../styles/globalColors";
+import { Button } from "antd";
 
 const NotFound = () => {
   return (
@@ -30,7 +29,7 @@ const NotFound = () => {
         }}
       >
         <Link to="/">
-          <ButtonComponent text="Home Page" />
+          <Button type="primary">Home Page</Button>
         </Link>
       </div>
     </div>
